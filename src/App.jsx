@@ -42,12 +42,12 @@ function App() {
     <div className="main-wrapper">
       
       {/* LEFT SIDE - FIXED IDENTITY */}
+      {/* LEFT SIDE - FIXED IDENTITY */}
       <aside className="sidebar">
         <div className="identity">
           <h1>Shruti<br />Mundhe</h1>
           <p className="role">Full Stack Developer (MERN)</p>
           
-          {/* Detailed Intro Section */}
           <div className="tagline">
              <p>
               I am a final-year <b>IT Engineering student</b> (Class of 2026) passionate about building scalable, full-stack web applications. 
@@ -56,15 +56,19 @@ function App() {
             <p>
               Specializing in the <b>MERN Stack</b>, I focus on creating clean, accessible frontends backed by efficient RESTful APIs.
             </p>
-            <br />
-            <p>
-              Currently, I am developing <b>"Legal-Reach,"</b> a platform bridging the gap between legal professionals and clients, while sharpening my skills in <b>Data Structures & Algorithms (Java)</b>.
-            </p>
           </div>
           
           <div className="status-badge">
             <span className="dot"></span> Available for 2026 Placement
           </div>
+
+          {/* NEW: RESUME BUTTON */}
+          <div className="resume-container" style={{ marginTop: '30px' }}>
+            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="resume-btn">
+              View & Download Resume <FaArrowRight style={{ fontSize: '0.8rem' }}/>
+            </a>
+          </div>
+
         </div>
 
         <div className="sidebar-footer">

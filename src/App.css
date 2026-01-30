@@ -308,3 +308,24 @@ body {
 h2{
   color: #424040;
 }
+/* RESUME BUTTON STYLES */
+.resume-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 24px;
+  background-color: var(--highlight); /* Uses your Blue accent */
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 86, 179, 0.2);
+}
+
+.resume-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 86, 179, 0.3);
+  background-color: #004494; /* Slightly darker blue on hover */
+}
